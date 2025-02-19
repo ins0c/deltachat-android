@@ -1,7 +1,4 @@
 FROM docker.io/debian:12.4
-
-# Install Android Studio requirements
-# See https://developer.android.com/studio/install#linux
 RUN apt-get update -y \
 && apt-get install -y --no-install-recommends \
 wget \
